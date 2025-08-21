@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* header section */
 
 header {
@@ -21,6 +20,15 @@ header {
 
 header nav {
   display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  border-bottom: 6px #f20a0a solid;
 }
 
 header ul {
@@ -46,15 +54,6 @@ nav p {
   letter-spacing: 0%;
   color: #f20a0a;
   padding-left: 91px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  border-bottom: 6px #f20a0a solid;
 }
 
 
@@ -232,7 +231,6 @@ a:hover {
 }
 
 .cont4 h4 {
-  
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -259,7 +257,6 @@ a:hover {
   margin: 0 auto;
 }
 
-
 .cont5 h4 {
   width: 796.17px;
   font-family: "Roboto", sans-serif;
@@ -273,8 +270,9 @@ a:hover {
 }
 
 .cont5 span {
+    
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 550px;
   font-size: 24px;
   line-height: 122%;
   letter-spacing: 0%;
@@ -355,12 +353,7 @@ footer {
 }
 
 
-
-
-
-
 /* responsiveness */
-
 
 /* header section */
 @media screen and (max-width: 768px) {
@@ -385,7 +378,7 @@ footer {
 }
 
 /* hero section */
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
   .cont1{
     display: flex;
     flex-direction: column;
