@@ -4,6 +4,7 @@ About: A simple and responsive music-themed landing page built using HTML and CS
 
 Features:  
 . Semantic HTML struture 
+
 . Hero section with headline, description, call-to-action button, and a headphone illustration.
 
 - Artiste showcase section with profile images.
